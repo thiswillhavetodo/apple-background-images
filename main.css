@@ -1,0 +1,196 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q {	quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* main css */
+
+
+*, *:before, *:after { box-sizing: border-box; }
+
+body { 
+	margin: 0; 
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+button {
+    padding: 0;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.head-links-bar {
+	position: relative;
+	top: 18px;
+	height: 30px;
+	width: 980px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.store-links li {
+	float: left;
+	width: 105px;
+	height: 35px;
+}
+
+.store-links li>button {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-right: none;
+	color: #fff;
+	background-image: linear-gradient(#999, #999, #333, #333);
+}
+
+.store-links li:first-child>button {
+	border-radius: 5px 0 0 5px;
+}
+
+.search-container {
+	display: inline-block;
+	position: relative;
+	width: 140px;
+	height: 35px;
+	border: 1px solid black;
+	border-radius: 0 5px 5px 0;
+	color: #fff;
+	background-image: linear-gradient(#999, #999, #333, #333);
+}
+
+.search-form {
+	padding: 8px;
+}
+
+.search-form input {
+	position: absolute;
+	top: 6px;
+	left: 20px;
+	width: 100px;
+	background-color: #ccc;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.content-shell {
+	position: relative;
+	top: -30px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.main-content {
+	width: 100%;
+	height: 70vh;
+	background-image: url(http://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+
+.big-link {
+	display: block;
+	background-color: transparent;
+	width: 1440px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.text-holder {
+	position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+	width: 1440px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: -170px;
+	padding: 50px;
+	text-align: center;
+}
+
+.main-heading {
+	height: 95px;
+	overflow: hidden;
+}
+
+.sub-heading {
+	height: 100px;
+}
+
+.film-link {
+	display: block;
+	width: 980px;
+	height: 30px;
+	margin: 8px auto;
+	background-image: url(http://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
+	background-repeat: no-repeat;
+}
+
+.film-link:hover {
+	background-position: 0 -32px;
+}
+
+.promo-holder {
+	position: relative;
+	top: -28px;
+}
+
+.promo-image-links {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.promo-image-links li {
+	float: left;
+	width: 24.85%;
+	margin-right: 0.2%;
+	overflow: hidden
+}
+
+.promo-image-links li:last-child {
+	margin-right: 0;
+}
